@@ -1,3 +1,25 @@
+select {
+    width: 10rem;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: green 5px solid;
+}
+ 
+select>option {
+	color: black;
+    background-color: lightgreen;
+}
+
+select>option:checked {
+	color: white;
+	background-color: green;
+}
+
+select>option:hover {
+	background-color: green;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +33,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
